@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    height: 140vh;
+    background-image: url(./dog2.avif);
+    
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mainhead{
+  
+  text-align: center ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 220px;
+ color: rgb(21, 0, 139);
+ text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+}
+
+.card{
+    background-color: aliceblue;
+    display: flex;
+    margin: 0.5px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+}
+
+.card img{
+ display: flex;
+ height: 100%;
+ width: 100%;
+}
+
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.button{
+    background-image: linear-gradient(140deg, #e67255 0%,   darkcyan 50%, #BFD641 75%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+    font-family:sans-serif;
+
+}
